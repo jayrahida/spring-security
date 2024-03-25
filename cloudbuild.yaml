@@ -10,7 +10,7 @@ steps:
       - 'deploy'
       - 'spring-boot'
       - '--image'
-      - 'australia-southeast2-docker.pkg.dev/imposing-volt-418217/cloudbuild-repo/spring-boot'
+      - 'gcr.io/imposing-volt-418217/australia-southeast2-docker.pkg.dev/imposing-volt-418217/cloudbuild-repo/spring-boot'
       - '--region'
       - 'australia-southeast2'
 images: ['australia-southeast2-docker.pkg.dev/imposing-volt-418217/cloudbuild-repo/spring-boot']
