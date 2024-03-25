@@ -3,8 +3,6 @@ steps:
     args: ['install']
   - name: 'gcr.io/cloud-builders/docker'
     args: ['build', '--tag=australia-southeast2-docker.pkg.dev/imposing-volt-418217/cloudbuild-repo/spring-boot', '.']
-  - name: 'gcr.io/cloud-builders/docker'
-      args: [ 'build', '--tag=australia-southeast2-docker.pkg.dev/imposing-volt-418217/cloudbuild-repo/spring-boot', '.' ]
   - name: 'gcr.io/cloud-builders/gke-deploy:stable'
     args:
       - run
