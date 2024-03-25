@@ -14,4 +14,4 @@ steps:
       - '--region'
       - 'australia-southeast2'
       - '--allow-unauthenticated'
-images: ['australia-southeast2-docker.pkg.dev/imposing-volt-418217/cloudbuild-repo/spring-boot']
+images: ['australia-southeast2-docker.pkg.dev/imposing-volt-418217/cloudbuild-repo/spring-boot:$SHORT_SHA']
